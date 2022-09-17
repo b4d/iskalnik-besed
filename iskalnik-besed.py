@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-import collections
+
 from collections import Counter
 
 #niz = 'vztjeztreverpeep'
 niz = 'asjlrlmbšrčntjbm'
 
 filename='slovenske-besede.txt'
-
 
 with open(filename) as f:
     lines = f.read().splitlines() 
